@@ -65,7 +65,7 @@
     </header>
     <main>
       <section class="hero">
-        <div class="container">
+        <div class="hero-container container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-order-btn" type="button">Order Service</button>
         </div>
@@ -642,6 +642,25 @@
             </li>
           </ul>
         </div>
+        <div class="footer-form-container">
+          <p class="footer-form-text">Subscribe</p>
+          <form class="footer-form">
+            <label>
+              <input
+                type="email"
+                name="footer-email"
+                placeholder="E-mail"
+                class="footer-input"
+              />
+            </label>
+            <button class="footer-subscribe-btn" type="submit">
+              Subscribe
+              <svg class="footer-subscribe-icon" width="24" height="20">
+                <use href="./images/icons.svg#icon-Frame-3-1"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop">
@@ -704,7 +723,27 @@
               class="modal-text"
             ></textarea>
           </div>
-          <button type="submit">Send</button>
+          <div class="modal-field">
+            <input
+              type="checkbox"
+              name="privacy"
+              required
+              id="privacy"
+              class="modal-check visually-hidden"
+            />
+            <label for="privacy" class="check-text"
+              ><span class="check-text-holder"
+                ><svg class="modal-check-icon" width="10" height="8">
+                  <use
+                    href="./images/icons.svg#icon-Vector-1"
+                  ></use></svg></span
+              >I accept the terms and conditions of the
+              <a href="./index.html" class="check-link"
+                >Privacy Policy</a
+              ></label
+            >
+          </div>
+          <button type="submit" class="modal-send-btn">Send</button>
         </form>
       </div>
     </div>
