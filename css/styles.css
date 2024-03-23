@@ -658,7 +658,7 @@ img {
     border: none;
 }
 
-.button-icon:hover, .button-icon:focus {
+.modal-close:hover .button-icon, .modal-close:focus .button-icon {
     fill: #ffffff;
 }
 
