@@ -544,6 +544,7 @@ img {
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
+    color: #ffffff;
     border: 1px solid #ffffff;
     border-radius: 4px;
     width: 264px;
@@ -573,7 +574,7 @@ img {
     border-radius: 4px;
     padding: 8px 24px;
     border: none;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -654,9 +655,7 @@ img {
 
 .modal-close:hover, .modal-close:focus {
     background-color: #404bbf;
-}
-
-.button-icon:hover, .button-icon:focus {
+    border: none;
     fill: #ffffff;
 }
 
@@ -676,7 +675,7 @@ img {
 }
 
 .modal-field {
-   margin-bottom: 16px;
+   margin-bottom: 8px;
 }
 
 .modal-label {
